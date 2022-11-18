@@ -42,8 +42,8 @@ export default {
 interface YTResponse {
   items: {
     statistics: {
-      likeCount: number | undefined;
-      dislikeCount: number | undefined;
+      likeCount: number;
+      dislikeCount: number;
     };
   }[];
 }
