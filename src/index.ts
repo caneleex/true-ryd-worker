@@ -34,14 +34,10 @@ export default {
 };
 
 interface YTResponse {
-  items: YTResponseItem[];
-}
-
-interface YTResponseItem {
-  statistics: YTStatistics;
-}
-
-interface YTStatistics {
-  likeCount: number;
-  dislikeCount: number;
+  items: {
+    statistics: {
+      likeCount: number | undefined;
+      dislikeCount: number | undefined;
+    };
+  }[];
 }
