@@ -26,8 +26,8 @@ export default {
     const { likeCount = -1, dislikeCount = -1 } = items[0].statistics;
     return new Response(
       JSON.stringify({
-        likeCount: likeCount,
-        dislikeCount: dislikeCount,
+        likes: likeCount,
+        dislikes: dislikeCount,
       })
     );
   },
