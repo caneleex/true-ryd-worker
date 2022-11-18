@@ -1,0 +1,3 @@
+name = "true-ryd"
+main = "src/index.ts"
+compatibility_date = "2022-11-18"
