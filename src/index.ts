@@ -4,15 +4,15 @@ const apiUrl = (videoId: string) =>
 export default {
   async fetch(request: Request): Promise<Response> {
     const url = new URL(request.url);
-    const videoId = url.searchParams.get("videoId");
+    const videoId = url.searchParams.get('videoId');
     if (!videoId) {
-      return new Response("Provide the video id.", { status: 400 });
+      return new Response('Provide the video id.', { status: 400 });
     }
     const response = await fetch(apiUrl(videoId), {
-      method: "GET",
+      method: 'GET',
       headers: {
-        Accept: "application/json",
-        Referer: "https://ytcomment.kmcat.uk",
+        Accept: 'application/json',
+        Referer: 'https://ytcomment.kmcat.uk',
       },
     });
     if (!response.ok) {
@@ -31,8 +31,8 @@ export default {
       }),
       {
         headers: {
-          "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
         },
       }
     );
