@@ -6,7 +6,7 @@ I've modified [the original userscript](https://github.com/Anarios/return-youtub
 
 ## How to use
 
-Simply append the `videoId` parameter to the worker address, like so: `https://true-ryd.api.mlnr.dev/?videoId=YbJOTdZBX1g`[^3]
+Simply append the `videoId` parameter to the worker address, like so: [`https://true-ryd.api.mlnr.dev/?videoId=YbJOTdZBX1g`](https://true-ryd.api.mlnr.dev/?videoId=YbJOTdZBX1g)[^3]
 
 [^1]: https://github.com/Anarios/return-youtube-dislike/discussions/753
 [^2]: https://gist.github.com/caneleex/b4ddd643b07e2c0aa49df77e75fd5c8d
